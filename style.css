@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: black;
+    display: grid;
+}
+img{
+    margin-bottom: 1rem;
+}
+ header p{
+    color: #00cc99;
+    font-family: cursive;
+}
+div p{
+    color: #00cc99;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:  auto auto auto;
+}
+header, nav{
+    grid-column: 2 / 4;
+}
+#promotion{
+    grid-column: 2 / 4;
+}
+header{
+    margin-bottom: 1rem;
+}
+nav a{
+    margin: 4rem 3rem;
+}
+a{
+    color: #fff;
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+a:hover{
+    color: #b83434;
+}
+main {
+    grid-template-columns: auto auto auto;
+}
+footer{
+    grid-template-columns: auto auto;
+}
